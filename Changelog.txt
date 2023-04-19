@@ -1,8 +1,7 @@
-# HolyKnight
+2023-04-18
+----------
 
-A BepInEx-based gameplay mod/tweak for Hollow Knight
-
-## Included mods:
+added:
 
 * geo gain boost
 * invulnerability
@@ -12,7 +11,7 @@ A BepInEx-based gameplay mod/tweak for Hollow Knight
 * no hard landing after falling from height
 * infinite double jump
 
-## How to use:
+known issues:
 
-(to finish)
+* need to collect some soul first to cast spells though it does not drain
 
