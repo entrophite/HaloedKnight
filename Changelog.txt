@@ -15,3 +15,14 @@ known issues:
 
 * need to collect some soul first to cast spells though it does not drain
 
+2023-04-20
+----------
+
+added:
+
+* charms without notch costs
+* spamming attack (no attack cooldown)
+
+known issues:
+
+* need to collect some soul first to cast spells though it does not drain

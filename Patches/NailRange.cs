@@ -7,7 +7,7 @@ namespace HolyKnight.Patches
 	[HarmonyPatch(nameof(NailSlash.StartSlash))]
 	internal class NailRange
 	{
-		static void Postfix(NailSlash __instance)
+		static void Postfix(ref NailSlash __instance)
 		{
 			var s = Plugin.config_nail_range_multiplier.Value;
 			var o = __instance.transform.localScale;
