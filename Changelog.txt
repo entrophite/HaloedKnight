@@ -26,3 +26,18 @@ added:
 known issues:
 
 * need to collect some soul first to cast spells though it does not drain
+
+2023-04-23
+----------
+
+added:
+
+* no dash cooldown
+
+changed:
+
+* infinite soul (changed logic to locking soul always at maximum)
+
+known issues:
+
+* dash still has cooldown when used in mid-air

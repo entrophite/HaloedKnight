@@ -11,6 +11,7 @@ A BepInEx-based gameplay mod/tweak for Hollow Knight
 * infinite soul (mana)
 * invulnerability
 * nail attack range
+* no dash cooldown
 * no hard landing after falling from height
 * spamming attack (no attack cooldown)
 

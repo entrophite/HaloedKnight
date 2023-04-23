@@ -3,12 +3,14 @@
 namespace HolyKnight.Patches
 {
 	[HarmonyPatch(typeof(HeroController))]
-	[HarmonyPatch(nameof(HeroController.TakeMP))]
+	[HarmonyPatch("Update")]
 	internal class InfiniteSoul
 	{
-		static bool Prefix()
+		static bool Prefix(ref HeroController __instance)
 		{
-			return !Plugin.config_infinite_soul.Value;
+			if (Plugin.config_infinite_soul.Value)
+				__instance.playerData.MPCharge = __instance.playerData.maxMP;
+			return true;
 		}
 	}
 }

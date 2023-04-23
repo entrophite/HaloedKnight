@@ -31,6 +31,7 @@ namespace HolyKnight
 		internal static ConfigEntry<float> config_damage_dealt_multiplier;
 		internal static ConfigEntry<float> config_nail_range_multiplier;
 		internal static ConfigEntry<bool> config_spamming_attack;
+		internal static ConfigEntry<bool> config_no_dash_cooldown;
 		internal static ConfigEntry<bool> config_no_hard_landing;
 		internal static ConfigEntry<bool> config_infinite_double_jump;
 		internal static ConfigEntry<bool> config_free_charms;
@@ -57,6 +58,9 @@ namespace HolyKnight
 				"spamming_attack",
 				false,
 				"START SPAMMING THE ATTACK BUTTON!!!!! IMMEDIATELY!");
+			config_no_dash_cooldown = Config.Bind("GENERAL",
+				"no_dash_cooldown",
+				false);
 			config_no_hard_landing = Config.Bind("GENERAL",
 				"no_hard_landing",
 				false,
